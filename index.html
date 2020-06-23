@@ -1,17 +1,49 @@
 <body>
 <h1>btcv算力造假，限制挖矿行为曝光</h1>
-
 <p>最近有个项目做得比较火，叫做btcv。宣传号称算了超过了7EH/s。引起了supercoiner的注意。</p>
-
-<p><img alt="" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gg27hydox1j30u01j1tb8.jpg"/></p>
-
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gg27hydox1j30u01j1tb8.jpg" referrerpolicy="no-referrer"></p>
+<p>&nbsp;</p>
 <p>这里先给大家普及一下7EH/s是一个什么概念。</p>
-
 <p>我们从bch浏览器上可以看到，bch链的算力是2.39EH/s，</p>
-
-<p><img alt="" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gg27k79bvjj31vi0pugso.jpg"/></p>
-
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gg27k79bvjj31vi0pugso.jpg" referrerpolicy="no-referrer"></p>
 <p>大家知道bch可是有比特大陆这个大号称全球最大的矿场的支持，才能达到2.39EH/s，但是btcv这个名不见经传的币，居然是bch的三倍之多！身为一个在币圈混了多年的老鸟，一眼就可以看出来这是骗局，下面我们就来扒一扒这个项目是怎么对韭菜进行诈骗的。</p>
+<p>&nbsp;</p>
+<ul>
+<li><h3>分析原理</h3>
+<ol>
+<li><p>本次分析所有采用btcv开源到github的源码作为分析基准，<strong>如果你是一个小白，并不懂得代码，没关系，如果你真的要了解这个项目，那么找你身边一个初级以上，懂得技术的人，把这篇文章发给他看看，他就会告诉你，文章中所言不虚</strong>。</p>
+</li>
+<li><p>为了防止项目方看到此文章后，通过修改或删除代码的方式来掩盖劣行，我们先fork了一份他们的代码，并且只字不改，那么我们就相当于保存了他们的所有提交记录。</p>
+</li>
+<li><p>通过官网我们得知他们的开源地址如下：</p>
+<p><a href='https://github.com/bitcoinvault/bitcoinvault' target='_blank' class='url'>https://github.com/bitcoinvault/bitcoinvault</a></p>
+<p>然后我们fork一份，以保存证据</p>
+<p><a href='https://github.com/supercoiner/bitcoinvault' target='_blank' class='url'>https://github.com/supercoiner/bitcoinvault</a></p>
+<p>这我们可以看到是forked from <a href='https://github.com/bitcoinvault/bitcoinvault'>bitcoinvault/bitcoinvault</a> 而且提交记录中没有任何自己的修改</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gg28w2ymytj31uw0qqdpu.jpg" referrerpolicy="no-referrer"></p>
+</li>
 
-<ul><li><p>### 诈骗套路1，算力造假</p></li><li><p>### 诈骗套路2，限制挖矿</p></li></ul>
+</ol>
+</li>
+
+</ul>
+<p>&nbsp;</p>
+<p>	材料我们已经准备好，下面开始进行分析</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+<li><h3>诈骗套路1，算力造假</h3>
+<p>我们先打开他们计算算力的代码：</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</li>
+
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><h3>诈骗套路2，限制挖矿</h3>
+</li>
+
+</ul>
+
 </body>
